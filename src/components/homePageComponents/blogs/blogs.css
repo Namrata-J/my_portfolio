@@ -1,0 +1,22 @@
+.mp_blogs-section p,
+.mp_sub-section-link button {
+    color: var(--gray-shade);
+}
+
+.mp_sub-section {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 3rem 1.5rem;
+}
+
+.mp_sub-section-link button {
+    border-radius: 0.3rem;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+    padding: 0.6rem 0.8rem;
+}
+
+.mp_sub-section-link button:hover {
+    box-shadow: 0px 0px 2px 0px var(--black-shade);
+}

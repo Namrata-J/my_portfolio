@@ -10,6 +10,9 @@ const HomePage = () => {
                <homePageComp.Introduction />
                <homePageComp.Technologies /> 
                <homePageComp.Projects />
+               <homePageComp.Education />
+               <homePageComp.Blogs />
+               <homePageComp.Paintings />
             </div>
         </div>
     );
