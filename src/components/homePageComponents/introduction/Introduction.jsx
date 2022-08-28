@@ -13,7 +13,7 @@ const Introduction = () => {
                         width="40" />
                 </h4>
                 <p className="mp_font2">
-                    I'm an Adv. Frontend Developer who's always curious to learn crazy stuffs and ready to grab hands-on experience by creating web apps.
+                    I'm an Adv. Frontend Developer who's always curious to learn crazy stuffs and ready to grab hands-on experience by creating web apps. Besides, i also love to do painting and artwork related stuffs in my spare time.
                 </p>
             </div>
             <div className="ms_intro-img-section">

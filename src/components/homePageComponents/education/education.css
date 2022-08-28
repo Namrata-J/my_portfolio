@@ -1,0 +1,20 @@
+.ms_education-pursued {
+    color: var(--gray-shade);
+    padding: 3rem 5rem;
+}
+
+.ms_ep-inner-container {
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 30rem;
+}
+
+.mp_education {
+    display: flex;
+    font-size: 0.9rem;
+    gap: 7rem;
+}
+
+.mp_education p {
+    max-width: 50ch;
+}
