@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+
+:root {
+    --primary-color: #283847;
+    --secondary-color: #FFFFFF;
+    --light-primary-shade: #324252;
+    --gray-shade: #95a2b3;
+}
+
+.mp_fc {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.mp-vertically-fc {
+    align-items: center;
+    display: flex;
+}
+
+.mp_font1 {
+    font-family: 'Aboreto', cursive;
+}
+
+.mp_font2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.mp-page {
+    height: 100vh;
+}
+
+.mp-page-content-section {
+    height: 87vh;
+    overflow-y: scroll;
+}
+
+.mp-page-content-section::-webkit-scrollbar {
+    width: 5px;
+}
+
+.mp-page-content-section::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--gray-shade);
+    border-radius: 1rem;
+}
+
+.mp-page-content-section::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+    border-radius: 50%;
+}
+
+.mp-page-content-section::-webkit-scrollbar-thumb:hover {
+    background: var(--gray-shade);
+}

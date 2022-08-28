@@ -1,0 +1,65 @@
+.mp_introduction-section {
+    justify-content: space-around;
+    height: 87vh;
+    padding: 0rem 1rem;
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+.mp_intro-text-section {
+    color: var(--gray-shade);
+    padding: 0rem 0rem 5rem 0rem;
+}
+
+.mp_intro-text-section h4 {
+    animation: 5s anim-linedown ease-out;
+    font-size: 1.8rem;
+    font-weight: bold;
+    gap: 0.3rem;
+}
+
+.mp_intro-text-section p {
+    animation: 3.5s anim-linedown ease-out;
+    gap: 0.3rem;
+    max-width: 50ch;
+    padding-top: 1rem;
+}
+
+.ms_intro-img-section img {
+    animation: fadeIn 5s;
+    border: 10px solid var(--light-primary-shade);
+    box-shadow: 0px 0px 2px 0px var(--secondary-color);
+    border-radius: 50%;
+    width: 15rem;
+}
+
+.mp_swipe-down-icon {
+    animation: fadeIn 5s;
+    bottom: 2rem;
+    color: var(--gray-shade);
+    font-size: 2.5rem;
+    position: absolute;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes anim-linedown {
+    0% {
+        opacity: 0;
+        transform: translateY(-15vh);
+      }
+      20% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 1;
+        transform: translateY(0vh);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0vh);
+      }
+}

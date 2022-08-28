@@ -1,0 +1,25 @@
+.mp_header {
+    height: 13vh;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.mp_header-logo {
+    height: 10vh;
+}
+
+.mp_header-subcontainer1 {
+    color: var(--gray-shade);
+    font-size: 1.3rem;
+    gap: 0.5rem;
+}
+
+.mp_header-subcontainer2 {
+    gap: 2rem;
+}
+
+.mp_header-link {
+    text-decoration: none;
+}
