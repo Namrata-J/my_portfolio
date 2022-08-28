@@ -1,0 +1,136 @@
+.mp_introduction-section {
+    justify-content: space-around;
+    height: 87vh;
+    padding: 0rem 1rem;
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+.mp_intro-text-section {
+    color: var(--gray-shade);
+    padding: 0rem 0rem 5rem 0rem;
+}
+
+.mp_intro-text-section h4 {
+    animation: 5s anim-linedown ease-out;
+    font-size: 1.8rem;
+    font-weight: bold;
+    gap: 0.3rem;
+}
+
+.mp_intro-text-section p {
+    animation: 3.5s anim-linedown ease-out;
+    gap: 0.3rem;
+    max-width: 50ch;
+    padding-top: 1rem;
+}
+
+.ms_intro-img-section img {
+    animation: fadeIn 5s;
+    border: 10px solid var(--light-primary-shade);
+    box-shadow: 0px 0px 2px 0px var(--secondary-color);
+    border-radius: 50%;
+    width: 15rem;
+}
+
+.mp_swipe-down-icon {
+    animation: fadeIn 5s;
+    bottom: 2rem;
+    color: var(--gray-shade);
+    font-size: 2.5rem;
+    position: absolute;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes anim-linedown {
+    0% {
+        opacity: 0;
+        transform: translateY(-15vh);
+      }
+      20% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 1;
+        transform: translateY(0vh);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0vh);
+      }
+}
+
+@media only screen and (max-width: 870px) {
+    .ms_intro-img-section img {
+        width: 12rem;
+    }
+
+    .mp_introduction-section {
+        height: 90vh;
+    }
+
+    .mp_intro-text-section {
+        padding: 0rem;
+    }
+
+    .mp_intro-text-section h4 {
+        font-size: 1.5rem;
+    }
+
+    .mp_intro-text-section p {
+        max-width: 45ch;
+        gap: 0rem;
+        padding-top: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .mp_introduction-section {
+        flex-direction: column-reverse;
+    }
+
+    .mp_intro-text-section {
+        padding-bottom: 2rem;
+    }
+
+    .mp_intro-text-section h4,
+    .mp_intro-text-section p {
+        text-align: center;
+    }
+
+    .mp_intro-text-section h4 {
+        justify-content: center;
+    }
+
+    .ms_intro-img-section img {
+        border: 6px solid var(--light-primary-shade);
+        width: 10rem;
+    }
+
+    .mp_swipe-down-icon {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .mp_introduction-section {
+        height: 91vh;
+    }
+
+    .mp_intro-text-section h4 {
+        font-size: 1.2rem;
+    }
+
+    .mp_intro-text-section p {
+        font-size: 0.9rem;
+        padding-top: 0.2rem;
+    }
+
+    .ms_intro-img-section img {
+        width: 9rem;
+    }
+}

@@ -1,0 +1,21 @@
+.mp_footer-section {
+    background: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    gap: 1.5rem;
+    min-height: 30vh;
+    padding: 1rem;
+}
+
+.mp_footer-section p,
+.mp_footer-link:hover {
+    color: var(--gray-shade);
+}
+
+.mp_footer-section div {
+    gap: 2rem;
+}
+
+.mp_footer-link {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
