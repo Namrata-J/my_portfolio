@@ -7,7 +7,8 @@ const HomePage = () => {
         <div className="mp_home-page mp-page">
             <Header />
             <div className="mp_homepage-content-section mp-page-content-section">
-               <homePageComp.Introduction /> 
+               <homePageComp.Introduction />
+               <homePageComp.Technologies /> 
             </div>
         </div>
     );
