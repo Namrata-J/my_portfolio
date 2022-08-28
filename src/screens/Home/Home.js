@@ -1,5 +1,5 @@
 import "./home.css";
-import { Header } from "../../components/";
+import { Header, Footer } from "../../components/";
 import * as homePageComp from "../../components/";
 
 const HomePage = () => {
@@ -13,6 +13,7 @@ const HomePage = () => {
                <homePageComp.Education />
                <homePageComp.Blogs />
                <homePageComp.Paintings />
+               <Footer />
             </div>
         </div>
     );

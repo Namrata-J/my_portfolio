@@ -1,7 +1,8 @@
-import { BsChevronDoubleDown, BsGithub, BsArrowRight } from "react-icons/bs";
-import { GrReactjs, GrHtml5 } from "react-icons/gr";
+import { BsChevronDoubleDown, BsGithub, BsArrowRight, BsTwitter } from "react-icons/bs";
+import { GrReactjs, GrHtml5, GrMail } from "react-icons/gr";
 import { TbBrandCss3 } from "react-icons/tb";
 import { AiFillApi } from "react-icons/ai";
+import { SiGmail } from "react-icons/si";
 import {
     SiRedux,
     SiTypescript,
@@ -9,7 +10,9 @@ import {
     SiMaterialui,
     SiNetlify,
     SiJavascript,
-    SiReactrouter
+    SiReactrouter,
+    SiHashnode,
+    SiLinkedin
 } from "react-icons/si";
 
 export {
@@ -26,5 +29,10 @@ export {
     SiJavascript,
     SiReactrouter,
     AiFillApi,
-    BsArrowRight
+    BsArrowRight,
+    SiHashnode,
+    BsTwitter,
+    SiLinkedin,
+    GrMail,
+    SiGmail
 };
