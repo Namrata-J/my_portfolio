@@ -54,3 +54,15 @@
 .mp-page-content-section::-webkit-scrollbar-thumb:hover {
     background: var(--gray-shade);
 }
+
+@media only screen and (max-width: 870px) {
+    .mp-page-content-section {
+        height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .mp-page-content-section {
+        height: 91vh;
+    }
+}

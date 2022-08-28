@@ -1,6 +1,6 @@
 .ms_education-pursued {
     color: var(--gray-shade);
-    padding: 3rem 5rem;
+    padding: 3rem 0rem;
 }
 
 .ms_ep-inner-container {
@@ -17,4 +17,10 @@
 
 .mp_education p {
     max-width: 50ch;
+}
+
+@media only screen and (max-width: 580px) {
+    .mp_education {
+        gap: 4rem;
+    }
 }

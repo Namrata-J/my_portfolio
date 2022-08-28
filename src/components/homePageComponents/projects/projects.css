@@ -78,3 +78,22 @@
 .mp-pcc-link:hover {
     color: var(--secondary-color);
 }
+
+@media only screen and (max-width: 870px) {
+    .mp_projects-work {
+        gap: 1rem;
+        padding: 3rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .mp_projects-work {
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .mp_projects-work {
+        gap: 1.5rem;
+    }
+}

@@ -15,7 +15,7 @@ const Projects = () => {
                             className="mp_project-category-card">
                             <div className="mp_project-category-card-img-section">
                                 <div className="mp_project-category-card-img-layer"></div>
-                                <img src={category.img} />
+                                <img src={category.img} alt="img" />
                             </div>
                             <div className="mp_project-category-card-content-section">
                                 <div>

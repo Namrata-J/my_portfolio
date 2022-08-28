@@ -1,5 +1,6 @@
 import { BsChevronDoubleDown, BsGithub, BsArrowRight, BsTwitter } from "react-icons/bs";
-import { GrReactjs, GrHtml5, GrMail } from "react-icons/gr";
+import { GrReactjs, GrHtml5, GrMail, GrClose } from "react-icons/gr";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { TbBrandCss3 } from "react-icons/tb";
 import { AiFillApi } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
@@ -34,5 +35,7 @@ export {
     BsTwitter,
     SiLinkedin,
     GrMail,
-    SiGmail
+    SiGmail,
+    GiHamburgerMenu,
+    GrClose
 };
