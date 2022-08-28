@@ -1,4 +1,4 @@
-import { BsChevronDoubleDown, BsGithub } from "react-icons/bs";
+import { BsChevronDoubleDown, BsGithub, BsArrowRight } from "react-icons/bs";
 import { GrReactjs, GrHtml5 } from "react-icons/gr";
 import { TbBrandCss3 } from "react-icons/tb";
 import { AiFillApi } from "react-icons/ai";
@@ -25,5 +25,6 @@ export {
     SiNetlify,
     SiJavascript,
     SiReactrouter,
-    AiFillApi
+    AiFillApi,
+    BsArrowRight
 };

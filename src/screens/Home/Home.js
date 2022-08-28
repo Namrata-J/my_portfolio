@@ -9,6 +9,7 @@ const HomePage = () => {
             <div className="mp_homepage-content-section mp-page-content-section">
                <homePageComp.Introduction />
                <homePageComp.Technologies /> 
+               <homePageComp.Projects />
             </div>
         </div>
     );
