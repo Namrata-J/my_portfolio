@@ -1,6 +1,6 @@
 import "./introduction.css";
-import njPic from "../../assets/njPic.jpg";
-import { BsChevronDoubleDown } from "../../utils/icons";
+import njPic from "../../../assets/njPic.jpg";
+import { BsChevronDoubleDown } from "../../../utils/icons";
 
 const Introduction = () => {
     return (
