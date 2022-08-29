@@ -17,7 +17,7 @@ const Footer = () => {
                     )
                 }
             </div>
-            <p>Made By {"<Namrata Jain />"}</p>
+            <p>2022 © Made By {"<Namrata Jain />"}</p>
         </div>
     );
 }

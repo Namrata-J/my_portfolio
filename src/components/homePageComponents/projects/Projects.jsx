@@ -24,6 +24,7 @@ const Projects = () => {
                                 </div>
                                 <Link
                                     className="mp-pcc-link mp_font2"
+                                    state={{ projectCategory: category.title }}
                                     to="/projects">
                                     <span>See All </span>
                                     <BsArrowRight />
