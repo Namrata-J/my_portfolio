@@ -12,7 +12,7 @@ export const educationList = [
         description: "Completed HSC with PCM+Computer from Christ The King Inter College, Tundla"
     },
     {
-        year: "2027",
+        year: "2017",
         description: "Completed SSC from Christ The King Inter College, Tundla"
     }
 ];
