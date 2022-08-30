@@ -16,6 +16,14 @@ const Introduction = () => {
                 <p className="mp_font2">
                     I'm an Adv. Frontend Developer who's always curious to learn crazy stuffs and ready to grab hands-on experience by creating web apps. Besides, i also love to do painting and artwork related stuffs in my spare time.
                 </p>
+                <a
+                    rel="noreferrer"
+                    href="https://drive.google.com/file/d/1qp2T-MQV_go7KzF1xAfrkuL-S7V5MU_b/view?usp=sharing"
+                    target="_blank">
+                    <button className="mp_font2">
+                        My Resume
+                    </button>
+                </a>
             </div>
             <div className="ms_intro-img-section">
                 <img src={njPic} alt="pic" />

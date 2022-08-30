@@ -33,6 +33,21 @@
     width: 15rem;
 }
 
+.mp_intro-text-section button {
+    animation: 3.5s anim-linedown ease-out;
+    background-color: transparent;
+    border: 1px solid var(--gray-shade);
+    border-radius: 0.3rem;
+    color: var(--gray-shade);
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.mp_intro-text-section button:hover {
+    background-color: var(--light-primary-shade);
+}
+
 .mp_swipe-down-icon {
     animation: fadeIn 5s;
     bottom: 2rem;
@@ -94,10 +109,12 @@
     }
 
     .mp_intro-text-section {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
         padding-bottom: 2rem;
     }
 
-    .mp_intro-text-section h4,
     .mp_intro-text-section p {
         text-align: center;
     }
