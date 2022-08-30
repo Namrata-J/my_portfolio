@@ -19,6 +19,9 @@ const BlogsListing = () => {
                         <p className="mp_blog-title mp_font2">
                             {blog.title}
                         </p>
+                        <p className="mp_blog-description mp_font2">
+                            {blog.description}
+                        </p>
                     </div>
                 )
             }
