@@ -160,12 +160,12 @@ export const miniProjectsList = [
 export const portfoliosList = [
     {
         title: "Portfolio",
-        img: "https://res.cloudinary.com/nj1508/image/upload/v1661671016/mp/mp3.png",
-        date: "Jul 22, 2021",
-        techStack: "HTML5, CSS3",
-        description: "my portfolio where i have showcased all of my projects and works.",
+        img: "https://res.cloudinary.com/nj1508/image/upload/v1661836572/mp/mp-p.png",
+        date: "Aug 27, 2022",
+        techStack: "ReactJs, CSS3",
+        description: "Portfolio made using ReactJs, to showcase all my projects, skills, blogs, etc.",
         preview: "https://namratajain.netlify.app/",
-        code: "https://github.com/Namrata-J/portfolio"
+        code: "https://github.com/Namrata-J/my_portfolio"
     },
     {
         title: "Portfolio",
@@ -173,7 +173,7 @@ export const portfoliosList = [
         date: "Jul 22, 2021",
         techStack: "HTML5, CSS3",
         description: "my portfolio where i have showcased all of my projects and works.",
-        preview: "https://namratajain.netlify.app/",
+        preview: "https://nj-portfolio.netlify.app",
         code: "https://github.com/Namrata-J/portfolio"
     }
 ];
