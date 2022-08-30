@@ -7,7 +7,12 @@ const BlogsListing = () => {
             {
                 blogsList.map((blog, index) =>
                     <div key={index} className="mp_blog-card">
-                        <img src={blog.img} alt="blog img" />
+                        <a
+                            rel="noreferrer"
+                            href={blog.link}
+                            target="_blank">
+                            <img src={blog.img} alt="blog img" />
+                        </a>
                         <p className="mp_blog-published-date mp_font2">
                             {blog.date}
                         </p>
