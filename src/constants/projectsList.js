@@ -76,12 +76,12 @@ export const miniProjectsList = [
     },
     {
         title: "Lucky Birthday!?",
-        img: "https://res.cloudinary.com/nj1508/image/upload/v1661758919/mp/mp15.png",
+        img: "https://res.cloudinary.com/nj1508/image/upload/v1662143836/mp/m-p15.png",
         date: "Sep 7, 2021",
         techStack: "VanillaJs, HTML5, CSS3",
         description: "This app checks if your birthday is lucky or not and is made using VanillaJs",
         preview: "https://dobcheck.netlify.app/",
-        code: "https://github.com/Namrata-J/Project-9"
+        code: "https://github.com/Namrata-J/Is-your-birthday-lucky"
     },
     {
         title: "Cash Register Manager",
