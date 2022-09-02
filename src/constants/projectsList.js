@@ -84,13 +84,13 @@ export const miniProjectsList = [
         code: "https://github.com/Namrata-J/Project-9"
     },
     {
-        title: "Cash Rejister",
-        img: "https://res.cloudinary.com/nj1508/image/upload/v1661758584/mp/mp14.png",
+        title: "Cash Register Manager",
+        img: "https://res.cloudinary.com/nj1508/image/upload/v1662138266/mp/m-p14.png",
         date: "Sep 6, 2021",
         techStack: "VanillaJs, HTML5, CSS3",
-        description: "This app tells you how much and what are the cash notes that needs to be returned to the customer.",
-        preview: "https://cashrejister.netlify.app/",
-        code: "https://github.com/Namrata-J/Project-8"
+        description: "This app tells you the minimum no. of notes that needs to be returned to the customer.",
+        preview: "https://c-r-m.netlify.app/",
+        code: "https://github.com/Namrata-J/Cash-Register-Manager"
     },
     {
         title: "Symphonize",
