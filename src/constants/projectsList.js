@@ -121,7 +121,7 @@ export const miniProjectsList = [
     },
     {
         title: "Banana Talks",
-        img: "https://res.cloudinary.com/nj1508/image/upload/v1661670858/mp/mp2.png",
+        img: "https://res.cloudinary.com/nj1508/image/upload/v1663685792/mp/mp_19.png",
         date: "Jul 27, 2021",
         techStack: "VanillaJs, HTML5, CSS3",
         description: "A banana talk app made using VanillaJs. It translates you english text into minions language.",
