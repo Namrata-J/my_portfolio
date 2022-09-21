@@ -112,7 +112,7 @@ export const miniProjectsList = [
     },
     {
         title: "Fun Translation App",
-        img: "https://res.cloudinary.com/nj1508/image/upload/v1661757962/mp/mp11.png",
+        img: "https://res.cloudinary.com/nj1508/image/upload/v1663749654/mp/mp-20.png",
         date: "Aug 2, 2021",
         techStack: "VanillaJs, HTML5, CSS3",
         description: "A fun translation app made using VanillaJs.This app translates your text to fun-characters language.",
