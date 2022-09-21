@@ -67,7 +67,7 @@ export const miniProjectsList = [
     },
     {
         title: "Fun With Triangles",
-        img: "https://res.cloudinary.com/nj1508/image/upload/v1661759367/mp/mp16.png",
+        img: "https://res.cloudinary.com/nj1508/image/upload/v1663774566/mp/mp-21.png",
         date: "Sep 8, 2021",
         techStack: "VanillaJs, HTML5, CSS3",
         description: "Have fun with triangles. Interacting with this app wil let you know how fun it is to deal with triangles.",
