@@ -49,7 +49,7 @@ export const macroProjectsList = [
 export const miniProjectsList = [
     {
         title: "Where are my stockers!?",
-        img: "https://res.cloudinary.com/nj1508/image/upload/v1661769043/mp/mp18.png",
+        img: "https://res.cloudinary.com/nj1508/image/upload/v1663816556/mp/mp-23.png",
         date: "Sep 11, 2021",
         techStack: "VanillaJs, HTML5, CSS3",
         description: "This app tells you the profit and loss you made in your stock purchase.",
