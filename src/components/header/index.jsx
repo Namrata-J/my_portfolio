@@ -12,10 +12,18 @@ import {
   NavList,
   ItemLink,
   HeaderContent,
+  SideBarMenu,
+  ButtonMenu,
+  ContentSideBar,
+  ExitSideBarMenu,
+  ListItem,
 } from "./styles";
 import { navList } from "./data/nav-list";
 import { useNavigate } from "react-router-dom";
 import { ContainerMaxWidth } from "../../utils/styles";
+import { MdOutlineClose } from "react-icons/md";
+
+const dIcon = { size: 35, color: "#fff" };
 
 export const HeaderComponent = () => {
   const getTheLinkStyle = ({ isActive }) => {
@@ -30,51 +38,57 @@ export const HeaderComponent = () => {
 
   const [hamburgerPopUpDisplay, setHamburgerPopUpDisplay] = useState("none");
 
+  const [isOpen, setIsOpen] = useState(false);
+
   const navigate = useNavigate();
 
   return (
-    <Header>
-      <ContainerMaxWidth>
-        <HeaderContent>
-          <ContentLeft>
-            <LogoImage img={logo} alt="logo" />
-            <Title>Namrata Jain</Title>
-          </ContentLeft>
-          <NavList>
-            {navList.map((item, index) => (
-              <ItemLink onClick={() => navigate(item.pageLink)} key={index}>
-                {item.pageName}
-              </ItemLink>
-            ))}
-          </NavList>
+    <>
+      <Header>
+        <ContainerMaxWidth>
+          <HeaderContent>
+            <ContentLeft>
+              <LogoImage img={logo} alt="logo" />
+              <Title>Namrata Jain</Title>
+            </ContentLeft>
+            <NavList>
+              {navList.map((item, index) => (
+                <ItemLink onClick={() => navigate(item.pageLink)} key={index}>
+                  {item.pageName}
+                </ItemLink>
+              ))}
+            </NavList>
 
-          <GiHamburgerMenu
-            className="mp_hamburger-icon"
-            onClick={() => setHamburgerPopUpDisplay("flex")}
-          />
-          <div
-            className="mp_hamburger-popUp-container mp-vertically-fc"
-            style={{ display: hamburgerPopUpDisplay }}
-          >
-            <div
-              className="mp_hamburger-popUp-close-icon-container"
-              onClick={() => setHamburgerPopUpDisplay("none")}
-            >
-              <GrClose className="mp_hamburger-popUp-close-icon" />
-            </div>
-            {headerList.map((item, index) => (
-              <NavLink
-                key={index}
-                className="mp_header-link mp_font1"
-                to={item.pageLink}
-                style={getTheLinkStyle}
-              >
-                {item.pageName}
-              </NavLink>
-            ))}
-          </div>
-        </HeaderContent>
-      </ContainerMaxWidth>
-    </Header>
+            <SideBarMenu>
+              <ButtonMenu onClick={() => setIsOpen(!isOpen)} type="button">
+                {isOpen ? (
+                  <MdOutlineClose {...dIcon} />
+                ) : (
+                  <GiHamburgerMenu {...dIcon} />
+                )}
+              </ButtonMenu>
+
+              <ContentSideBar open={isOpen}>
+                <ListItem>
+                  {headerList.map((item, index) => (
+                    <ItemLink
+                      className="sidebar"
+                      onClick={() => {
+                        navigate(item.pageLink);
+                        setIsOpen(false);
+                      }}
+                      key={index}
+                    >
+                      {item.pageName}
+                    </ItemLink>
+                  ))}
+                </ListItem>
+              </ContentSideBar>
+            </SideBarMenu>
+          </HeaderContent>
+        </ContainerMaxWidth>
+      </Header>
+      {isOpen && <ExitSideBarMenu onClick={() => setIsOpen(false)} />}
+    </>
   );
 };

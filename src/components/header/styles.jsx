@@ -43,6 +43,10 @@ export const NavList = styled.nav`
   width: 100%;
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 890px) {
+    display: none;
+  }
 `;
 
 export const ItemLink = styled.a`
@@ -50,9 +54,65 @@ export const ItemLink = styled.a`
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+  letter-spacing: 2px;
   cursor: pointer;
 
   :hover {
     color: #dbdbdb;
   }
+`;
+
+// SIDEBAR MENU
+export const SideBarMenu = styled.div`
+  position: relative;
+
+  @media screen and (min-width: 890px) {
+    display: none;
+  }
+`;
+
+export const ButtonMenu = styled.button`
+  background: transparent;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  :hover svg {
+    fill: #d8d8d8;
+  }
+`;
+
+export const ContentSideBar = styled.div`
+  position: fixed;
+  top: 100px;
+  background: #1c2a38;
+  right: ${({ open }) => (open ? 0 : "-100%")};
+
+  max-width: 600px;
+  width: 100%;
+  height: calc(100vh - 100px);
+  z-index: 9;
+  transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+
+  padding: 50px 0;
+`;
+
+export const ListItem = styled.ul`
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height: 280px;
+`;
+
+export const ExitSideBarMenu = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #00000088;
+  backdrop-filter: blur(4px);
+  z-index: 9;
 `;
