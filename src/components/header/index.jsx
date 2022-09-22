@@ -1,6 +1,5 @@
-import { GiHamburgerMenu, GrClose } from "../../utils/icons";
+import { GiHamburgerMenu } from "../../utils/icons";
 import { headerList } from "../../constants/headerLinks";
-import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import { useState } from "react";
 import "./header.css";
@@ -26,20 +25,7 @@ import { MdOutlineClose } from "react-icons/md";
 const dIcon = { size: 35, color: "#fff" };
 
 export const HeaderComponent = () => {
-  const getTheLinkStyle = ({ isActive }) => {
-    return isActive
-      ? {
-          color: "var(--secondary-color)",
-        }
-      : {
-          color: "var(--gray-shade)",
-        };
-  };
-
-  const [hamburgerPopUpDisplay, setHamburgerPopUpDisplay] = useState("none");
-
   const [isOpen, setIsOpen] = useState(false);
-
   const navigate = useNavigate();
 
   return (
