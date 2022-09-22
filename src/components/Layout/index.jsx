@@ -26,7 +26,9 @@ import { HeaderComponent } from "../header";
 export const LayoutPageComponent = () => (
   <>
     <HeaderComponent />
-    <Outlet />
+    <div style={{ paddingTop: 100 }}>
+      <Outlet />
+    </div>
     <Footer />
   </>
 );
