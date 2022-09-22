@@ -1,11 +1,3 @@
-import { RoutesComp } from "./routes/Routes";
+import { RoutesComp } from "./routes";
 
-function App() {
-  return (
-    <div className="App">
-      <RoutesComp />
-    </div>
-  );
-}
-
-export default App;
+export const App = () => <RoutesComp />;
