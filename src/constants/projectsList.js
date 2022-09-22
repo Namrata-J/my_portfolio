@@ -103,11 +103,11 @@ export const miniProjectsList = [
     },
     {
         title: "C-A-S-E-S Interpreter",
-        img: "https://res.cloudinary.com/nj1508/image/upload/v1661758181/mp/mp12.png",
+        img: "https://res.cloudinary.com/nj1508/image/upload/v1663821739/mp/mp-24.png",
         date: "Sep 1, 2021",
         techStack: "ReactJs, HTML5, CSS3",
         description: "This is an interpreter app made using ReactJs which interprets the emoji meaning.",
-        preview: "https://emrdk.csb.app/",
+        preview: "https://nl7qc.csb.app/",
         code: "https://github.com/Namrata-J/Project-6"
     },
     {
