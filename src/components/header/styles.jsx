@@ -1,13 +1,19 @@
 import styled from "styled-components";
 
 export const Header = styled.header`
-  height: 100px;
-  justify-content: space-between;
-  padding: 0rem 2rem;
-  z-index: 1;
   background: #283847;
   position: fixed;
   box-shadow: 0 -1px 8px #1c2a38;
+  width: 100%;
+  z-index: 99;
+`;
+
+export const HeaderContent = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
 `;
 
 export const ContentLeft = styled.div`
