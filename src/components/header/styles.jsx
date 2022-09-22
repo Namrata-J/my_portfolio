@@ -52,7 +52,7 @@ export const NavList = styled.nav`
 export const ItemLink = styled.a`
   font-family: "Aboreto", cursive;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
   letter-spacing: 2px;
   cursor: pointer;
@@ -94,8 +94,12 @@ export const ContentSideBar = styled.div`
   height: calc(100vh - 100px);
   z-index: 9;
   transition: 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
-
   padding: 50px 0;
+
+  @media screen and (max-width: 700px) {
+    max-width: initial;
+    width: calc(100% - 60px);
+  }
 `;
 
 export const ListItem = styled.ul`
