@@ -94,11 +94,11 @@ export const miniProjectsList = [
     },
     {
         title: "Symphonize",
-        img: "https://res.cloudinary.com/nj1508/image/upload/v1661758390/mp/mp13.png",
+        img: "https://res.cloudinary.com/nj1508/image/upload/v1663862065/mp/mp-25.png",
         date: "Sep 5, 2021",
         techStack: "ReactJs, HTML5, CSS3",
         description: "This is a music recommendation app.",
-        preview: "https://oxi6s.csb.app/",
+        preview: "https://xohzpc.csb.app/",
         code: "https://github.com/Namrata-J/Project-7"
     },
     {
