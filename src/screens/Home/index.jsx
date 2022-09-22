@@ -2,6 +2,7 @@ import * as homePageComp from "../../components/";
 import { Container, Section } from "./styles";
 import { ContainerMaxWidth } from "../../utils/styles";
 import { IntroductionComponet } from "./Introduction";
+import { technologiesList } from "../../constants/technologies";
 
 export const HomePage = () => {
   return (
@@ -10,7 +11,7 @@ export const HomePage = () => {
         <Section>
           <IntroductionComponet />
         </Section>
-        <homePageComp.Technologies />
+        <Section></Section>
         <homePageComp.Projects />
         <homePageComp.Education />
         <homePageComp.Blogs />
