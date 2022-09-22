@@ -58,7 +58,7 @@ export const miniProjectsList = [
     },
     {
         title: "Is your birthday a palindrome!?",
-        img: "https://res.cloudinary.com/nj1508/image/upload/v1661759094/mp/mp17.png",
+        img: "https://res.cloudinary.com/nj1508/image/upload/v1663813106/mp/mp-22.png",
         date: "Sep 9, 2021",
         techStack: "VanillaJs, HTML5, CSS3",
         description: "This is fun app which tells you if your birthday is a palindrome and if not, then it also tells you the closest palindrome date.",
