@@ -1,1 +1,1 @@
-export const TechnologiesComponent = () => 
+// export const TechnologiesComponent = () =>

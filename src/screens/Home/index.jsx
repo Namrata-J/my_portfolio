@@ -2,7 +2,7 @@ import * as homePageComp from "../../components/";
 import { Container, Section } from "./styles";
 import { ContainerMaxWidth } from "../../utils/styles";
 import { IntroductionComponet } from "./Introduction";
-import { technologiesList } from "../../constants/technologies";
+// import { technologiesList } from "../../constants/technologies";
 
 export const HomePage = () => {
   return (
