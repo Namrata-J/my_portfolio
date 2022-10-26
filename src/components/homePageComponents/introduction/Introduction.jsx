@@ -18,7 +18,7 @@ const Introduction = () => {
                 </p>
                 <a
                     rel="noreferrer"
-                    href="https://drive.google.com/file/d/1qp2T-MQV_go7KzF1xAfrkuL-S7V5MU_b/view?usp=sharing"
+                    href="https://drive.google.com/file/d/132C40H2YLrf3u15-p-CFtg3OzHvS4WiI/view?usp=sharing"
                     target="_blank">
                     <button className="mp_font2">
                         My Resume
