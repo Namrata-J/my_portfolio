@@ -1,5 +1,14 @@
 export const macroProjectsList = [
     {
+        title: "Relievo",
+        img: "https://res.cloudinary.com/nj1508/image/upload/v1667756070/mp/mp_27.png",
+        date: "Oct 31, 2022",
+        techStack: "ReactJS, MaterialUI, ReactRouter",
+        description: "A Dynamic Component Library which relieves developer's pain related to component UI Building!! An MVP build in just 40 hours as a part of roc8's Moonshot hackathon.",
+        preview: "https://relievo.vercel.app/",
+        code: "https://github.com/Namrata-J/relievo"
+    },
+    {
         title: "EOT",
         img: "https://res.cloudinary.com/nj1508/image/upload/v1661670609/mp/mp1.png",
         date: "Jul 8, 2022",
@@ -47,6 +56,15 @@ export const macroProjectsList = [
 ];
 
 export const miniProjectsList = [
+    {
+        title: "Drive Car",
+        img: "https://res.cloudinary.com/nj1508/image/upload/v1667755682/mp/mp_26.png",
+        date: "Sep 26, 2022",
+        techStack: "React Three Fiber",
+        description: "A project based on metaverse made using React three fiber. Use arrow keys to drive the car, and press shift to speed up.",
+        preview: "https://sz5x86.csb.app/",
+        code: "https://github.com/Namrata-J/Drive_Car"
+    },
     {
         title: "Where are my stockers!?",
         img: "https://res.cloudinary.com/nj1508/image/upload/v1663816556/mp/mp-23.png",
@@ -141,7 +159,7 @@ export const miniProjectsList = [
         title: "Are you a Tvd fan?",
         img: "https://res.cloudinary.com/nj1508/image/upload/v1661757219/mp/mp9.png",
         date: "Apr 16, 2021",
-        techStack: "NodeJs, HTML5, CSS3, Replit, CHALK",
+        techStack: "NodeJs, Replit, CHALK",
         description: "Another NodeJs CLI app.I have used CHALK to enhance it.This shows that how big fan you are of Tvd series.",
         preview: "https://replit.com/@NamrataJain29/CLI-tvd-quiz?embed=1&output=1#index.js",
         code: "https://replit.com/@NamrataJain29/CLI-tvd-quiz#index.js"
@@ -150,7 +168,7 @@ export const miniProjectsList = [
         title: "How well do you know me?",
         img: "https://res.cloudinary.com/nj1508/image/upload/v1661756618/mp/mp8.png",
         date: "Apr 15, 2021",
-        techStack: "NodeJs, HTML5, CSS3, Replit, CHALK",
+        techStack: "NodeJs, Replit, CHALK",
         description: "A CLI app built with NodeJs.I have used CHALK to enhance it.You can send this to your friends and find out who really knows you.",
         preview: "https://replit.com/@NamrataJain29/CLI-quiz-app?embed=1&output=1#index.js",
         code: "https://replit.com/@NamrataJain29/CLI-quiz-app#index.js"
