@@ -6,17 +6,25 @@
 .ms_ep-inner-container {
     flex-direction: column;
     gap: 2rem;
-    max-width: 30rem;
+    max-width: 40rem;
+    width: 100%;
+}
+
+.ms_ep-inner-container>* {
+    width: 100%;
 }
 
 .mp_education {
     display: flex;
     font-size: 0.9rem;
-    gap: 7rem;
+}
+
+.mp_education h4 {
+    width: 30%;
 }
 
 .mp_education p {
-    max-width: 50ch;
+    width: 70%;
 }
 
 @media only screen and (max-width: 580px) {
