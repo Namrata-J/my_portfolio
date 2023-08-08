@@ -1,7 +1,7 @@
 export const educationList = [
   {
-    year: "Dec, 2022 - Present",
-    description: "Converted to full-time engineer at Binks",
+    year: "Jun, 2022 - Present",
+    description: "Working as a frontend engineer at Binks",
   },
   {
     year: "Sep, 2022",
@@ -11,10 +11,6 @@ export const educationList = [
     year: "Aug, 2022",
     description:
       "Completed Bachelor's in Computer Applications from Anand Engineering College, Agra",
-  },
-  {
-    year: "Jun, 2022",
-    description: "Started my internship at Binks for frontend engineer role",
   },
   {
     year: "Jun, 2022",
