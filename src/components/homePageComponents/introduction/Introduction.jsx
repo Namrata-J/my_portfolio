@@ -14,11 +14,11 @@ const Introduction = () => {
                         alt="img" />
                 </h4>
                 <p className="mp_font2">
-                    I'm an Adv. Frontend Developer who's always curious to learn crazy stuffs and ready to grab hands-on experience by creating web apps. Besides, i also love to do painting and artwork related stuffs in my spare time.
+                    I'm an Adv. Frontend Developer with hands-on experience on market-leading technologies. I have professionally worked on android, IOS, and web development. I am currently serving at Binks.
                 </p>
                 <a
                     rel="noreferrer"
-                    href="https://drive.google.com/file/d/132C40H2YLrf3u15-p-CFtg3OzHvS4WiI/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1u0Hxo-2ue7VBf64D720LkpkXhC39WC30/view?usp=sharing"
                     target="_blank">
                     <button className="mp_font2">
                         My Resume

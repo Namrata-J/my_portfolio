@@ -40,6 +40,9 @@ const ProjectsListing = ({ projectsList }) => {
                                     <a rel="noreferrer" href={project.code} target="_blank">
                                         <button>View Code</button>
                                     </a>
+                                    {project?.features && <a rel="noreferrer" href={project.features} target="_blank">
+                                        <button>Features</button>
+                                    </a>}
                                 </div>
                             </div>
                         </div>
