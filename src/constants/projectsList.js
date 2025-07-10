@@ -2,7 +2,7 @@ export const macroProjectsList = [
   {
     title: "TechTribe",
     img: "https://res.cloudinary.com/nj1508/image/upload/v1752164574/mp_29.png",
-    date: "Oct 31, 2022",
+    date: "9 July, 2025",
     techStack: "NextJs, Typescript, MUIv5, ReduxToolkit, SocketIO, MongoDB, ExpressJS, NodeJS, AWS, Resend",
     description:
       "A full stack web application hosted AWS EC2 instance. Uses mongodb atlas to store it's clusters with aws as a provider.",
