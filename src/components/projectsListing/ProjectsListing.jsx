@@ -39,8 +39,8 @@ const ProjectsListing = ({ projectsList }) => {
                   >
                     {project?.hasMicroservices ? (
                       <>
-                        {index == 0 && <button>Frontend Code</button>}
-                        {index == 1 && <button>Backend Code</button>}
+                        {index === 0 && <button>Frontend Code</button>}
+                        {index === 1 && <button>Backend Code</button>}
                       </>
                     ) : (
                       <button>View Code</button>
