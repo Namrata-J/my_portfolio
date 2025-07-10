@@ -28,6 +28,12 @@ import {
   BsArrowRight,
   BsTwitter,
 } from "react-icons/bs";
+import { FaAws } from "react-icons/fa";
+import { TbBrandFramerMotion } from "react-icons/tb";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { SiSocketdotio } from "react-icons/si";
 
 export {
   SiTailwindcss,
@@ -58,4 +64,10 @@ export {
   GrClose,
   SiXcode,
   SiJira,
+  FaAws,
+  TbBrandFramerMotion,
+  FaNodeJs,
+  SiExpress,
+  SiMongodb,
+  SiSocketdotio
 };

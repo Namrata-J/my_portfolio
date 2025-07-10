@@ -3,7 +3,8 @@
     margin: 0rem 1rem;
 }
 
-.mp_homePage-section-heading {
+.mp_homePage-section-heading,
+.mp_homePage-section-subheading {
     border-bottom: 1px solid var(--light-primary-shade);
     color: var(--secondary-color);
     font-size: 1.2rem;

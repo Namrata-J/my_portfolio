@@ -1,5 +1,5 @@
 import "./technologies.css";
-import { technologiesList } from "../../../constants/technologies";
+import { toolsList, technologiesList } from "../../../constants/technologies";
 
 const Technologies = () => {
     return (
@@ -8,6 +8,16 @@ const Technologies = () => {
             <div className="ms_technologies-familier mp_fc">
                 {
                     technologiesList.map((tech, index) =>
+                        <div key={index} className="mp-vertically-fc mp_font2">
+                            {tech.techLogo} {tech.tech}
+                        </div>
+                    )
+                }
+            </div>
+            <h6 className="mp_homePage-section-subheading">others</h6>
+            <div className="ms_technologies-familier mp_fc">
+                {
+                    toolsList.map((tech, index) =>
                         <div key={index} className="mp-vertically-fc mp_font2">
                             {tech.techLogo} {tech.tech}
                         </div>

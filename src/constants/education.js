@@ -1,6 +1,10 @@
 export const educationList = [
   {
-    year: "Jun, 2022 - Present",
+    year: "Sep, 2023 - Present",
+    description: "Working as a software engineer at PensionBox, backed by Zerodha",
+  },
+  {
+    year: "Jun, 2022 - Aug, 2022",
     description: "Working as a frontend engineer at Binks",
   },
   {

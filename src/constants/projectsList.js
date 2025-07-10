@@ -1,5 +1,16 @@
 export const macroProjectsList = [
   {
+    title: "TechTribe",
+    img: "https://res.cloudinary.com/nj1508/image/upload/v1752164574/mp_29.png",
+    date: "Oct 31, 2022",
+    techStack: "NextJs, Typescript, MUIv5, ReduxToolkit, SocketIO, MongoDB, ExpressJS, NodeJS, AWS, Resend",
+    description:
+      "A full stack web application hosted AWS EC2 instance. Uses mongodb atlas to store it's clusters with aws as a provider.",
+    preview: "https://thetechtribe.in/",
+    code: "https://github.com/Namrata-J/TechTribe_Frontend, https://github.com/Namrata-J/TechTribe_Backend",
+    hasMicroservices: true
+  },
+  {
     title: "Relievo",
     img: "https://res.cloudinary.com/nj1508/image/upload/v1667756070/mp/mp_27.png",
     date: "Oct 31, 2022",
@@ -68,6 +79,16 @@ export const macroProjectsList = [
 ];
 
 export const miniProjectsList = [
+  {
+    title: "Framer motion Animations",
+    img: "https://res.cloudinary.com/nj1508/image/upload/v1752163516/mp__28.png",
+    date: "Oct, 2023",
+    techStack: "Framer motion",
+    description:
+      "A project containing few animations made using Framer motion library.",
+    preview: "https://xjnx3j.csb.app/",
+    code: "https://github.com/Namrata-J/Framer_motion_animations",
+  },
   {
     title: "Drive Car",
     img: "https://res.cloudinary.com/nj1508/image/upload/v1667755682/mp/mp_26.png",

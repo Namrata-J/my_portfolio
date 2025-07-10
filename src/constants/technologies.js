@@ -18,6 +18,12 @@ import {
   SiAndroidstudio,
   SiXcode,
   SiJira,
+  FaAws,
+  TbBrandFramerMotion,
+  FaNodeJs,
+  SiExpress,
+  SiSocketdotio,
+  SiMongodb,
 } from "../utils/icons";
 
 export const technologiesList = [
@@ -30,12 +36,12 @@ export const technologiesList = [
     techLogo: <TbBrandReactNative />,
   },
   {
-    tech: "Redux Toolkit",
-    techLogo: <SiRedux />,
+    tech: "NextJs",
+    techLogo: <TbBrandNextjs />,
   },
   {
-    tech: "Strapi",
-    techLogo: <SiStrapi />,
+    tech: "Redux Toolkit",
+    techLogo: <SiRedux />,
   },
   {
     tech: "React Router",
@@ -46,36 +52,63 @@ export const technologiesList = [
     techLogo: <AiFillApi />,
   },
   {
-    tech: "NextJs",
-    techLogo: <TbBrandNextjs />,
-  },
-  {
-    tech: "Jira",
-    techLogo: <SiJira />,
+    tech: "AWS",
+    techLogo: <FaAws />,
   },
   {
     tech: "Typescript",
     techLogo: <SiTypescript />,
   },
   {
-    tech: "Material UI",
+    tech: "Framer Motion",
+    techLogo: <TbBrandFramerMotion />,
+  },
+  {
+    tech: "NodeJs",
+    techLogo: <FaNodeJs />,
+  },
+  {
+    tech: "ExpressJs",
+    techLogo: <SiExpress />,
+  },
+  {
+    tech: "MongoDB",
+    techLogo: <SiMongodb />,
+  },
+  {
+    tech: "Socket.io",
+    techLogo: <SiSocketdotio />,
+  },
+  {
+    tech: "MUIv5",
     techLogo: <DiMaterializecss />,
   },
   {
-    tech: "Tailwind CSS",
-    techLogo: <SiTailwindcss />,
+    tech: "AndroidStudio",
+    techLogo: <SiAndroidstudio />,
+  },
+  {
+    tech: "XCode",
+    techLogo: <SiXcode />,
+  },
+];
+
+export const toolsList = [
+  {
+    tech: "Bigin",
+    techLogo: "",
+  },
+  {
+    tech: "Strapi",
+    techLogo: <SiStrapi />,
+  },
+  {
+    tech: "Jira",
+    techLogo: <SiJira />,
   },
   {
     tech: "Github",
     techLogo: <BsGithub />,
-  },
-  {
-    tech: "HTML5",
-    techLogo: <GrHtml5 />,
-  },
-  {
-    tech: "CSS3",
-    techLogo: <TbBrandCss3 />,
   },
   {
     tech: "Jest",
@@ -86,15 +119,19 @@ export const technologiesList = [
     techLogo: <SiNetlify />,
   },
   {
+    tech: "Tailwind CSS",
+    techLogo: <SiTailwindcss />,
+  },
+  {
+    tech: "HTML5",
+    techLogo: <GrHtml5 />,
+  },
+  {
+    tech: "CSS3",
+    techLogo: <TbBrandCss3 />,
+  },
+  {
     tech: "Javascript",
     techLogo: <SiJavascript />,
-  },
-  {
-    tech: "AndroidStudio",
-    techLogo: <SiAndroidstudio />,
-  },
-  {
-    tech: "XCode",
-    techLogo: <SiXcode />,
   },
 ];
